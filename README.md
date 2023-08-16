@@ -27,20 +27,25 @@ A saída deve ser o número mínimo de empurrões que você deve fazer para cheg
 ---
 title: Elevator Interview Challenge
 ---
-
 classDiagram
-    note "Classes e Relações"
+    note "From Elevator till InterviewProcess"
+
     class Elevator {
       +floors: int
       +currentFloor: int
       +targetFloor: int
-      +upButton: bool
-      +downButton: bool
+      +upButton: Button
+      +downButton: Button
       +pushUpButton(): void
       +pushDownButton(): void
       +moveUp(): void
       +moveDown(): void
       +isAtTargetFloor(): bool
+    }
+
+    class Button {
+      +direction: string
+      +push(): void
     }
 
     class InterviewProcess {
@@ -52,8 +57,9 @@ classDiagram
       +run(): string
     }
 
-    Elevator -- InterviewProcess : contains
-    InterviewProcess -- Elevator : uses
+    Elevator -- Button : contains
+    InterviewProcess -- Elevator : contains
+
 
 ```
 
