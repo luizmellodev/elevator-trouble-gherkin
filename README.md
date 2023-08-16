@@ -21,6 +21,12 @@ A entrada consistirá em uma linha no formato "f s g u d", onde:
 
 A saída deve ser o número mínimo de empurrões que você deve fazer para chegar do andar s ao andar g, ou a mensagem "use the stairs" se for impossível chegar ao andar g usando o elevador fornecido.
 
+
+## Gherkin
+
+```gherkin
+
+```
 ## Diagrama de Classe (UML)
 
 ```mermaid
@@ -59,8 +65,6 @@ classDiagram
 
     Elevator -- Button : contains
     InterviewProcess -- Elevator : contains
-
-
 ```
 
 Autores
