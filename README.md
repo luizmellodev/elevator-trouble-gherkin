@@ -1,8 +1,8 @@
-# Elevator Interview Challenge
+# Elevator Interview Challenge - Gherkin
 
 ## Descrição
 
-Este repositório contém uma solução para o desafio de programação relacionado a um problema de entrevista de emprego envolvendo um elevador em um arranha-céu.
+Este repositório contém um diagrama da UML e uma especificação de requisito funcional em Gherkin do problema do Elevador.
 
 ## Problema
 
