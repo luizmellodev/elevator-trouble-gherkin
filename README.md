@@ -24,31 +24,38 @@ A saída deve ser o número mínimo de empurrões que você deve fazer para cheg
 ## Diagrama de Classe (UML)
 
 ```mermaid
-class Elevator {
-  +floors: int
-  +currentFloor: int
-  +targetFloor: int
-  +upButton: bool
-  +downButton: bool
-  +pushUpButton(): void
-  +pushDownButton(): void
-  +moveUp(): void
-  +moveDown(): void
-  +isAtTargetFloor(): bool
-}
+---
+title: Elevator Interview Challenge
+---
 
-class InterviewProcess {
-  +startFloor: int
-  +targetFloor: int
-  +elevator: Elevator
-  +pushSequence: int[]
-  +calculatePushSequence(): int[]
-  +run(): string
-}
+classDiagram
+    note "Classes e Relações"
+    class Elevator {
+      +floors: int
+      +currentFloor: int
+      +targetFloor: int
+      +upButton: bool
+      +downButton: bool
+      +pushUpButton(): void
+      +pushDownButton(): void
+      +moveUp(): void
+      +moveDown(): void
+      +isAtTargetFloor(): bool
+    }
 
-Elevator -- InterviewProcess : contains
-InterviewProcess -- Elevator : uses
+    class InterviewProcess {
+      +startFloor: int
+      +targetFloor: int
+      +elevator: Elevator
+      +pushSequence: int[]
+      +calculatePushSequence(): int[]
+      +run(): string
+    }
 
+    Elevator -- InterviewProcess : contains
+    InterviewProcess -- Elevator : uses
+
+```
 
 Autores
 - Luiz Eduardo Mello dos Reis
