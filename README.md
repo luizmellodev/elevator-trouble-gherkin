@@ -6,7 +6,7 @@
 * [Entrada](#entrada)
 * [Saída](#saída)
 * [Gherkin](#gherkin)
-* [Diagrama de Classe (com Mermaid)](#Diagrama-de-Classe-(UML))
+* [Diagrama de Classe (com Mermaid)](#diagrama-de-classe)
 * [Alunos](#alunos)
 
 
@@ -122,7 +122,7 @@ use the stairs
 """
 
 ```
-## Diagrama de Classe (UML)
+## Diagrama de Classe
 
 ```mermaid
 ---
