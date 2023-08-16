@@ -1,6 +1,6 @@
 # Elevator Interview Challenge - Gherkin
 
-## MENU
+## Menu de conteúdo
 * [Descrição](#descrição)
 * [Problema](#problema)
 * [Entrada](#entrada)
