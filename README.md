@@ -1,5 +1,16 @@
 # Elevator Interview Challenge - Gherkin
 
+
+* [Descrição](#descrição)
+* [Problema](#problema)
+* [Entrada](#entrada)
+* [Saída](#saída)
+* [Gherkin](#gherkin)
+* [Diagrama de Classe (com Mermaid)](#Diagrama-de-Classe-(UML))
+* [Alunos](#alunos)
+
+
+
 ## Descrição
 
 Este repositório contém um diagrama da UML e uma especificação de requisito funcional em Gherkin do problema do Elevador.
@@ -151,6 +162,6 @@ classDiagram
     InterviewProcess -- Elevator : contains
 ```
 
-Autores
+# Alunos
 - Luiz Eduardo Mello dos Reis
 - Lucas Bankow
